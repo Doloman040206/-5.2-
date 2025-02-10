@@ -1,0 +1,126 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для секцій */
+.section-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Хедер */
+.header-container {
+    background-color: #ff9800;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 36px;
+}
+
+header h1 .highlight {
+    color: #ffeb3b;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Псевдоклас :first-child */
+nav ul li:first-child a {
+    color: #ffeb3b;
+}
+
+/* Секція About Us */
+#about {
+    background-color: #ffc107;
+    text-align: center;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #e65100;
+}
+
+.description {
+    font-style: italic;
+}
+
+/* Секція Menu */
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    background-color: #ff5722;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+/* Псевдоклас :hover */
+#menu ul li:hover {
+    background-color: #f44336;
+}
+
+/* Псевдоелемент ::before */
+#menu ul li::before {
+    content: "🍕";
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+/* Псевдоелемент ::after */
+#menu ul li::after {
+    content: "!";
+    font-style: italic;
+    color: yellow;
+}
+
+/* Футер */
+.footer-container {
+    background-color: #ff9800;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+footer p .highlight {
+    color: #ffeb3b;
+}
